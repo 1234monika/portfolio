@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 5px;
+    padding: 5px;
+
+
+    .container {
+        background-color: aquamarine;
+        color: black;
+        height:auto;
+        width: auto;
+        display: flex;
+        border: 4mm ridge rgba(211, 220, 50, .6);
+
+        .Info {
+            float: right;
+            top: auto;
+            height: 500px;
+            width:  auto;
+            color: rgb(241, 43, 13);
+            padding-top: 110px;
+
+            .h1 {
+                background-color: aqua;
+                border-color: solid black;
+                font-style: italic;
+
+
+
+            }
+        }
+    }
+
+    .Image {
+        height: 30px;
+        width:  auto;
+        float:inline-end;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(200, 255, 127);
+    }
+
+    .two{
+        background-color: bisque;
+        color: rgb(15, 16, 16);
+        width:  auto;
+        height: auto;
+        font-style: italic;
+        border: thick double #32a1ce;
+    }
+}
